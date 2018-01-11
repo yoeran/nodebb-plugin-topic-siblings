@@ -1,0 +1,10 @@
+{
+	"id": "nodebb-plugin-topic-siblings",
+	"url": "https://github.com/yoeran/nodebb-plugin-topic-siblings",
+	"library": "./library.js",
+	"hooks": [
+		{
+			"hook": "filter:topic.get", "method": "onTopicGet"
+		}
+	]
+}
